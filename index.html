@@ -63,6 +63,22 @@
                         <button><i class="far fa-envelope"></i>Contact me!!</button>
                     </div>
                 </div>
+					<script>
+						window.watsonAssistantChatOptions = {
+							integrationID: "4d56764f-3fe7-483a-baea-54a1c7c0cd5a", // The ID of this integration.
+							region: "us-east", // The region your integration is hosted in.
+							serviceInstanceID: "0a831661-65c1-47be-81bc-1cae840025e8", // The ID of your service instance.
+							onLoad: function(instance) { instance.render(); }
+						};
+						setTimeout(function(){
+							const t=document.createElement('script');
+							t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+							document.head.appendChild(t);
+						 });
+					</script>
+				<div>
+				
+				</div>
 
             </div>
 
