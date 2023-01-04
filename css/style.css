@@ -88,7 +88,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     margin: 20px 0;
-    font-size: 1.65rem;
+    font-size: 1.55rem;
     font-family: 'Thasadith', sans-serif;
 }
 
@@ -157,9 +157,10 @@ body{
 
 .text p{
     font-family: 'Monserrat', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: .8rem;
+    line-height: 1.2rem;
     color: #52b8cd;
+    text-align: justify;
 }
 
 .text button{
@@ -186,4 +187,28 @@ body{
 .text button i{
     float: left;
     font-size: 1.7rem;
+}
+
+.icon i{
+    color: white;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-size: 2.0rem;
+    color: #c3e5f1;
+    text-shadow: #c3e5f1 0px 0px 1px;
+    text-align: center;
+}
+
+.date {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-size: 1.0rem;
+    color: #c3e5f1;
+    text-shadow: #c3e5f1 0px 0px 1px;
+    text-align: center;
 }
